@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15232" started-at="2022-07-21T01:47:21 IST" finished-at="2022-07-21T01:47:36 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15232" started-at="2022-07-21T01:47:21 IST" finished-at="2022-07-21T01:47:36 IST">
+      <class name="Data_Driven_Validating.Validating_Data_Driven">
+        <test-method status="PASS" signature="Data_Driven_Testing()[pri:0, instance:Data_Driven_Validating.Validating_Data_Driven@6043cd28]" name="Data_Driven_Testing" duration-ms="15178" started-at="2022-07-21T01:47:21 IST" finished-at="2022-07-21T01:47:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Data_Driven_Testing -->
+      </class> <!-- Data_Driven_Validating.Validating_Data_Driven -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

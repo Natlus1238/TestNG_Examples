@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <groups>
+  <define name="all methods">
+  
+  <include name="neededmethod"></include>
+  <include name="closebrowser"></include>
+  
+  
+  
+  </define>
+  
+  
+  <run>
+  	<include name="all methods"></include>
+  
+  
+  </run>
+   
+  </groups>
+    <classes>
+      <class name="com.testng.features.testing.Testng_GroupsofGroups_Grouping"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
